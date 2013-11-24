@@ -1,0 +1,44 @@
+<h3 id="toc_0">Newsletter signup Form</h3>
+
+<p>If you would like to receive more information about our activities,
+just signup for our newsletter.</p>
+
+<p>We will not expose your email address to others...</p>
+
+<div data-ng-controller='FormCtrl'>
+<form name='form' data-ng-submit='submit();' data-ng-hide='ok'>
+    <div class='row-fluid'>
+        <div class='span4'>
+            <label for="name">Name</label>
+            <input data-ng-model="data.name" required placeholder="enter name"></input>
+            <br/>
+        </div>
+    </div>
+    <div class='row-fluid'>
+        <div class='span4'>
+            <label for="email">Email</label>
+            <input data-ng-model="data.email" required placeholder="enter email"></input>
+            <br/>
+            <label class="checkbox" data-ng-show="false">
+                <input type="checkbox" data-ng-model='data.sendCopy'>Send me a copy</input>
+            </label>
+        </div>
+    </div>
+    <div class='row-fluid'>
+        <div class='span4'>
+            <input type='submit' class='btn' data-ng-show='form.$valid' value='Send'></input>
+        </div>
+    </div>
+</form>
+<div class='row-fluid'>
+    <div class='span4'>
+        <div class='alert alert-success' data-ng-show='ok'>
+            The form has been saved!
+        </div>
+        <div class='alert alert-error' data-ng-show='ok === false'>
+            Failed to save the form...
+        </div>
+    </div>
+</div>
+
+<p></div></p>

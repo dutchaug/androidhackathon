@@ -1,0 +1,76 @@
+<div class="row-fluid">
+  <div class="span12">
+      <div class="views">
+        <h3 class="title"><a href="/views/form">Form</a> <span class="date"></span></h3>
+
+        <div class="summary">
+<h3 id="toc_0">Newsletter signup Form</h3>
+
+<p>If you would like to receive more information about our activities,
+just signup for our newsletter.</p>
+
+<p>We will not expose your email address to others...</p>
+
+<div data-ng-controller="FormCtrl">
+<form name="form" data-ng-submit="submit();" data-ng-hide="ok">
+    <div class="row-fluid">
+        <div class="span4">
+            <label for="name">Name</label>
+            <input data-ng-model="data.name" required placeholder="enter name">
+            <br>
+        </div>
+    </div>
+    <div class="row-fluid">
+        <div class="span4">
+            <label for="email">Email</label>
+            <input data-ng-model="data.email" required placeholder="enter email">
+            <br>
+            <label class="checkbox" data-ng-show="false">
+                <input type="checkbox" data-ng-model="data.sendCopy">Send me a copy
+            </label>
+        </div>
+    </div>
+    <div class="row-fluid">
+        <div class="span4">
+            <input type="submit" class="btn" data-ng-show="form.$valid" value="Send">
+        </div>
+    </div>
+</form>
+<div class="row-fluid">
+    <div class="span4">
+        <div class="alert alert-success" data-ng-show="ok">
+            The form has been saved!
+        </div>
+        <div class="alert alert-error" data-ng-show="ok === false">
+            Failed to save the form...
+        </div>
+    </div>
+</div>
+
+<p></p>
+</div>
+</div>
+
+        <div class="more">
+          <a href="/views/form" class="btn btn-small">read more..</a>
+        </div>
+      </div>
+      <div class="views">
+        <h3 class="title"><a href="/views">Index</a> <span class="date"></span></h3>
+
+        <div class="summary">
+<h5>GDG The Dutch Android User Group page with AngularJS enabled...</h5>
+</div>
+
+        <div class="more">
+          <a href="/views" class="btn btn-small">read more..</a>
+        </div>
+      </div>
+    
+    <div class="pagination">
+      <ul>
+          <li class="active"><a href="/views/index/1">1</a></li>
+      </ul>
+    </div>
+  </div>
+</div>

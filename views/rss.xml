@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>Android Hackathons</title>
+    <description>Android Hackathons</description>
+    <link>http://www.androidhackathon.nl</link>
+    <pubDate>2013-11-24</pubDate>
+    <item>
+      <title>Form</title>
+      <link>http://www.androidhackathon.nl/views/form</link>
+      <description>&lt;h3 id="toc_0"&gt;Newsletter signup Form&lt;/h3&gt;
+
+&lt;p&gt;If you would like to receive more information about our activities,
+just signup for our newsletter.&lt;/p&gt;
+
+&lt;p&gt;We will not expose your email address to others...&lt;/p&gt;
+
+&lt;div data-ng-controller='FormCtrl'&gt;
+&lt;form name='form' data-ng-submit='submit();' data-ng-hide='ok'&gt;
+    &lt;div class='row-fluid'&gt;
+        &lt;div class='span4'&gt;
+            &lt;label for="name"&gt;Name&lt;/label&gt;
+            &lt;input data-ng-model="data.name" required placeholder="enter name"&gt;&lt;/input&gt;
+            &lt;br/&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class='row-fluid'&gt;
+        &lt;div class='span4'&gt;
+            &lt;label for="email"&gt;Email&lt;/label&gt;
+            &lt;input data-ng-model="data.email" required placeholder="enter email"&gt;&lt;/input&gt;
+            &lt;br/&gt;
+            &lt;label class="checkbox" data-ng-show="false"&gt;
+                &lt;input type="checkbox" data-ng-model='data.sendCopy'&gt;Send me a copy&lt;/input&gt;
+            &lt;/label&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class='row-fluid'&gt;
+        &lt;div class='span4'&gt;
+            &lt;input type='submit' class='btn' data-ng-show='form.$valid' value='Send'&gt;&lt;/input&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+&lt;div class='row-fluid'&gt;
+    &lt;div class='span4'&gt;
+        &lt;div class='alert alert-success' data-ng-show='ok'&gt;
+            The form has been saved!
+        &lt;/div&gt;
+        &lt;div class='alert alert-error' data-ng-show='ok === false'&gt;
+            Failed to save the form...
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Index</title>
+      <link>http://www.androidhackathon.nl/views</link>
+      <description>&lt;h5&gt;GDG The Dutch Android User Group page with AngularJS enabled...&lt;/h5&gt;
+</description>
+    </item>
+  </channel>
+</rss>

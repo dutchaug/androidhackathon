@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>Android Hackathons</title>
+    <description>Android Hackathons</description>
+    <link>http://www.androidhackathon.nl</link>
+    <pubDate>2013-11-24</pubDate>
+    <item>
+      <title>Sony</title>
+      <link>http://www.androidhackathon.nl/sponsors/sony</link>
+      <pubDate>2013-09-11</pubDate>
+      <description>&lt;p&gt;is providing us with 10 &lt;a href=""&gt;Sony SmartWatch 2&lt;/a&gt;&amp;#39;s. During the hackathon, the teams can use these to incorporate this cool piece of &lt;em&gt;&amp;#39;tech&amp;#39;&lt;/em&gt; into their solution. At the end of the hackathon we will be able to also hand some out to the
+contestants! &lt;/p&gt;
+
+&lt;p&gt;To get started with the Sony Smart Extension APIs, check out &lt;a href="http://developer.sonymobile.com/knowledge-base/sony-add-on-sdk/smart-extension-apis/"&gt;this&lt;/a&gt; site.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>i'm Watch</title>
+      <link>http://www.androidhackathon.nl/sponsors/im-watch</link>
+      <pubDate>2013-09-11</pubDate>
+      <description>&lt;p&gt;is providing us with 9 &lt;a href=""&gt;i&amp;#39;m Smart&lt;/a&gt; smart watches. During the hackathon, the teams can use these to incorporate this
+cool piece of &lt;em&gt;&amp;#39;tech&amp;#39;&lt;/em&gt; into their solution. At the end of the hackathon we will be able to also hand one out as a prize ! &lt;/p&gt;
+
+&lt;p&gt;To be prepared and jump-start development for the &lt;a href=""&gt;i&amp;#39;m Smart&lt;/a&gt; smart watches on the hackathon checkout &lt;a href="http://developer.imsmart.com/develop/setup-checklist"&gt;this site&lt;/a&gt; for more information.&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>
